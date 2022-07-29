@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgba(250, 128, 114, 0.507);
+}
+
+section {
+    width: 100%;
+    height: 25vh;
+}
+
+section.section1 {
+    background: url(./assets/smiley.jpg) repeat;
+    background-size: 100px;
+}
+
+div {
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+    font-family: cursive;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+section.section2 {
+    background: url(./assets/JeuxDeSociété.jpg) center/cover;
+}
+
+
+section.section3 {
+    background: url(./assets/archery.jpg) center/cover;
+}
+
+section.section4 {
+    background: url(./assets/gouter.jpg) center/cover;
+}
